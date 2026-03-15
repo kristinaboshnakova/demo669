@@ -1,0 +1,1244 @@
+<!doctype html>
+<html lang="bg">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  
+    <title>Къща за гости Ники – Широка лъка | Вила в Родопите до Пампорово</title>
+  
+    <meta name="description" content="Къща за гости Ники в Широка лъка – нова вила в Родопите до Пампорово. 18 места, апартамент, двойни стаи, механа, камина и уют. Резервирайте престой в сърцето на Родопите." />
+  
+    <meta name="author" content="Къща за гости Ники" />
+  
+    <!-- Open Graph -->
+    <meta property="og:title" content="Къща за гости Ники – Широка лъка" />
+    <meta property="og:description" content="Нова вила в Родопите с 18 места, апартамент, механа и уютна атмосфера." />
+    <meta property="og:type" content="website" />
+  
+    <!-- Ще активираш това когато имаш домейн -->
+    <!--
+    <meta property="og:url" content="https://yourdomain.bg" />
+    <meta property="og:image" content="https://yourdomain.bg/img/house-niki1.webp" />
+    <link rel="canonical" href="https://yourdomain.bg" />
+    -->
+  
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+
+  <div class="site-loader" id="siteLoader">
+    <div class="loader-inner">
+      <div class="loader-logo">
+        КЪЩА ЗА ГОСТИ НИКИ
+      </div>
+      <div class="loader-sub">
+        ШИРОКА ЛЪКА • РОДОПИ
+      </div>
+      <div class="loader-line"></div>
+    </div>
+  </div>
+  <!-- HEADER / NAV -->
+  <header class="site-header" id="siteHeader">
+    <div class="nav-inner">
+      <a class="brand" href="#home" aria-label="Къща за гости Ники">
+        <div class="brand-title">КЪЩА ЗА ГОСТИ НИКИ</div>
+        <div class="brand-sub">ШИРОКА ЛЪКА • РОДОПИ</div>
+      </a>
+
+      <nav class="nav" aria-label="Основна навигация">
+        <a class="nav-link is-active" href="#home">Начало</a>
+        <a class="nav-link" href="#about">За къщата</a>
+        <a class="nav-link" href="#amenities">Удобства</a>
+        <a class="nav-link" href="#prices">Цени</a>
+        <a class="nav-link" href="#gallery">Галерия</a>
+        <a class="nav-link" href="#location">Локация</a>
+        <a class="nav-link" href="#contact">Контакти</a>
+      </nav>
+
+      <a class="nav-cta" href="#booking">Запази дати</a>
+
+      <button class="burger" id="burgerBtn" type="button" aria-label="Отвори меню" aria-controls="offcanvas" aria-expanded="false">
+        <span class="burger-ic" aria-hidden="true">
+          <i></i><i></i><i></i>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  <!-- OFFCANVAS + OVERLAY -->
+  <div class="overlay" id="menuOverlay" hidden></div>
+
+  <aside class="offcanvas" id="offcanvas" aria-label="Меню" aria-hidden="true">
+    <div class="offcanvas-top">
+      <div class="offcanvas-brand">
+        <div class="offcanvas-title">КЪЩА ЗА ГОСТИ НИКИ</div>
+        <div class="offcanvas-sub">Нов лукс. Ново изживяване.</div>
+      </div>
+
+      <button class="offcanvas-close" id="closeMenuBtn" type="button" aria-label="Затвори меню">
+        ✕
+      </button>
+    </div>
+
+    <nav class="offcanvas-nav" aria-label="Мобилна навигация">
+      <a href="#home" class="m-link">Начало</a>
+      <a href="#about" class="m-link">За къщата</a>
+      <a href="#amenities" class="m-link">Удобства</a>
+      <a href="#prices" class="m-link">Цени</a>
+      <a href="#gallery" class="m-link">Галерия</a>
+      <a href="#location" class="m-link">Локация</a>
+      <a href="#contact" class="m-link">Контакти</a>
+      <a href="#booking" class="m-cta">Запази дати</a>
+    </nav>
+
+    <div class="offcanvas-footer">
+      <div class="offcanvas-note">Широка лъка • Родопи • уют и тишина</div>
+    </div>
+  </aside>
+
+  <!-- HERO / SLIDER -->
+  <main id="home">
+    <section class="hero" aria-label="Начална секция">
+      <div class="hero-slider" id="heroSlider">
+        <div class="hero-overlay"></div>
+
+        <button class="nav-arrow left" type="button" aria-label="Предишен слайд" data-prev>
+          <span>‹</span>
+        </button>
+        <button class="nav-arrow right" type="button" aria-label="Следващ слайд" data-next>
+          <span>›</span>
+        </button>
+
+        <div class="hero-content">
+          <div class="hero-kicker" id="heroKicker">
+            <span class="k-line"></span>
+            <span class="k-text">ШИРОКА ЛЪКА • РОДОПИ • НОВ ЛУКС И НОВО ИЗЖИВЯВАНЕ</span>
+          </div>
+
+          <h1 class="hero-title" id="heroTitle">КЪЩА ЗА ГОСТИ<br />НИКИ</h1>
+
+          <div class="hero-subtitle">
+            <div id="heroLine1">Напълно обновена къща за гости в сърцето на Родопите</div>
+            <div id="heroLine2">уют • стил • спокойствие • природа • близо до Пампорово и Смолян</div>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn btn-light" id="primaryCta" href="#about">
+              Разгледай вилата <span class="btn-ic">▶</span>
+            </a>
+            <a class="btn btn-ghost" id="secondaryCta" href="#gallery">
+              Виж снимки
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-bottom">
+          <div class="progress">
+            <div class="bars" id="progressBars" aria-hidden="true">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+            <div class="counter" id="progressCounter">01/03</div>
+          </div>
+        </div>
+
+        <aside class="hero-stat" aria-label="Информация">
+          <div class="stat-value" id="statValue">1</div>
+          <div class="stat-meta">
+            <div class="stat-unit" id="statUnit">ВИЛА</div>
+            <div class="stat-label" id="statLabel">НОВО ОБНОВЕНА В ШИРОКА ЛЪКА</div>
+          </div>
+        </aside>
+
+        <div class="lead-ring" aria-label="Скролни надолу">
+          <svg viewBox="0 0 100 100" class="lead-ring__svg" aria-hidden="true">
+            <defs>
+              <path id="leadCirclePath"
+                d="M 50,50 m -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" />
+            </defs>
+            <text font-size="8.5">
+              <textPath href="#leadCirclePath">
+                КЪЩА "НИКИ"
+              </textPath>
+            </text>
+          </svg>
+
+          <a href="#about" class="lead-ring__down" aria-label="Към секция За вилата">
+            <span class="lead-ring__chev">⌄</span>
+          </a>
+        </div>
+
+        <div class="hero-social" aria-label="Социални линкове">
+          <a id="heroFacebook"
+          class="hero-social__btn"
+          href="https://www.facebook.com/share/1AhG7XQFHj/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Facebook">
+         <svg viewBox="0 0 24 24" aria-hidden="true">
+           <path d="M13.5 22v-8h2.7l.4-3H13.5V9.1c0-.9.3-1.6 1.6-1.6H16.8V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3h2.6v8h3.4z"/>
+         </svg>
+       </a>
+
+         <!-- <a class="hero-social__btn"
+             href="#"
+             target="_blank"
+             rel="noopener"
+             aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm9 2h-9A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9A3.5 3.5 0 0 0 20 16.5v-9A3.5 3.5 0 0 0 16.5 4zm-4.5 3.3A4.7 4.7 0 1 1 7.3 12 4.7 4.7 0 0 1 12 7.3zm0 2A2.7 2.7 0 1 0 14.7 12 2.7 2.7 0 0 0 12 9.3zM17.6 6.6a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"/>
+            </svg>
+          </a>-->
+
+          <a class="hero-social__btn"
+          href="tel:0895628086"
+          aria-label="Телефон">
+         <svg viewBox="0 0 24 24" aria-hidden="true">
+           <path d="M6.6 10.8c1.5 3 3.6 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.1 21 3 13.9 3 5c0-.6.4-1 1-1h3.3c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z"/>
+         </svg>
+       </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Секции -->
+    <section id="about" class="about-mist">
+        <div class="about-mist__veil"></div>
+      
+        <div class="about-mist__top">
+            <div class="mist-pill">
+              <span class="mist-pill__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M4 13v5m0-3h16m0 3v-6a2 2 0 0 0-2-2h-5a2 2 0 0 0-2 2v3m-7 3v-9a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span>Уютни стаи</span>
+            </div>
+          
+            <div class="mist-pill">
+              <span class="mist-pill__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M3 18l6-7 4 4 4-6 4 9H3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span>Родопска атмосфера</span>
+            </div>
+          
+            <div class="mist-pill">
+              <span class="mist-pill__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 20c4.4-2.6 6-6.2 6-9.5A6 6 0 0 0 12 4a6 6 0 0 0-6 6.5c0 3.3 1.6 6.9 6 9.5z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 9c1.7 1.1 2.2 2.3 2.2 3.7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <span>Тишина и комфорт</span>
+            </div>
+          </div>
+      
+        <div class="about-mist__grid">
+          <div class="about-mist__content">
+            <div class="about-mist__eyebrow">КЪЩА ЗА ГОСТИ НИКИ • ШИРОКА ЛЪКА</div>
+      
+            <h2 class="about-mist__title">
+              За Къщата
+            </h2>
+      
+            <p class="about-mist__lead">
+              Къща за гости „Ники“ в Широка лъка посреща своите гости с напълно нов облик,
+              нов собственик и изцяло реновирана атмосфера от-до.
+            </p>
+            
+            <p class="about-mist__text">
+              Създадена с вкус, внимание към детайла и истинска любов към Родопите,
+              това вече не е просто място за нощувка, а преживяване, което се помни.
+              Тук ще откриете спокойствие, мекота, уют и усещане за бягство от ежедневието.
+            </p>
+            
+            <p class="about-mist__text about-mist__dash">
+              Къщата разполага с леглова база от <strong>18 места</strong>, разпределени в
+              <strong>4 двойни стаи</strong> с обща тераса, като една от тях е със спалня,
+              както и <strong>просторен апартамент</strong> със самостоятелен вход и две тераси.
+            </p>
+            
+            <p class="about-mist__text about-mist__dash">
+              Всяка от <strong>двойните стаи</strong>  разполага със <strong>собствен санитарен възел</strong>,
+              <strong>телевизор</strong> и <strong>минибар</strong>, осигуряващи удобство и пълноценна почивка.
+            </p>
+            
+            <p class="about-mist__text about-mist__dash">
+              <strong>Апартаментът</strong> се състои от <strong>две отделни спални</strong> – едната подходяща за
+              двама възрастни и две по-големи деца, <strong>разтегателен диван</strong>,
+              <strong>кухненски бокс</strong> и <strong>собствен санитарен възел</strong>,
+              осигуряващи пълен комфорт и уединение.
+            </p>
+      
+            <div class="about-mist__bonus">
+              <h3>Нашата механа</h3>
+              <p>
+                Насладете се на приготвяне на <strong>домашна храна</strong>  с домашни продукти в нашата
+                автентична механа – топлина от камината, аромати на традиционни рецепти
+                и вечери, които се превръщат в спомен.
+              </p>
+            </div>
+      
+            <div class="about-mist__bonus">
+              <h3>Зимен бонус</h3>
+              <p>
+                Близостта до Пампорово прави вилата чудесен избор и за зимна почивка,
+                съчетаваща комфорт, снежни гледки и уютни вечери в Родопите.
+              </p>
+            </div>
+      
+            <div class="about-mist__actions">
+              <a href="#gallery" class="mist-btn mist-btn--solid">Разгледай галерията</a>
+              <a href="#contact" class="mist-btn mist-btn--ghost">Запитване</a>
+            </div>
+          </div>
+      
+          <div class="about-mist__visual">
+            <div class="mist-frame mist-frame--main">
+              <img src="img/kamina.webp" alt="Къща за гости Ники - фасада" />
+            </div>
+      
+            <div class="mist-frame mist-frame--small mist-frame--one">
+              <img src="img/mehana.webp" alt="Интериор" />
+            </div>
+      
+            <div class="mist-frame mist-frame--small mist-frame--two">
+              <img src="img/spalnq.webp" alt="Детайл от къщата" />
+            </div>
+      
+            <div class="mist-card">
+              <div class="mist-card__label">Ново усещане</div>
+              <div class="mist-card__title">Уют в Родопите</div>
+              <div class="mist-card__text">
+                Само на 10 км от Пампорово и на 20 км от Смолян.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section id="amenities" class="amenities-elegant">
+        <div class="amenities-elegant__veil"></div>
+      
+        <div class="amenities-elegant__wrap">
+          <div class="amenities-elegant__intro">
+            <div class="amenities-elegant__eyebrow">УДОБСТВА • КОМФОРТ • СПОКОЙСТВИЕ</div>
+            <h2 class="amenities-elegant__title">Удобства</h2>
+            <p class="amenities-elegant__lead">
+              Пространства, създадени за уютен престой, тишина и усещане за лекота
+              в сърцето на Родопите.
+            </p>
+          </div>
+      
+          <div class="amenities-elegant__grid">
+            <div class="amenities-elegant__main">
+              <article class="amenity-block">
+                <div class="amenity-block__number">01</div>
+                <div class="amenity-block__content">
+                  <h3>Стаи с комфорт и самостоятелност</h3>
+                  <p>
+                    Всяка от четирите двойни стаи разполага със собствен санитарен възел, телевизор,
+                    мини бар и безплатен интернет, за да се чувствате удобно и спокойно
+                    през целия си престой.
+                  </p>
+                </div>
+              </article>
+      
+              <article class="amenity-block">
+                <div class="amenity-block__number">02</div>
+                <div class="amenity-block__content">
+                  <h3>Просторен апартамент с отделен вход</h3>
+                  <p>
+                    Подходящ за до 8 гости, апартаментът предлага две отделни спални,
+                    голям хол с разтегателен диван, кухненски бокс, санитарен възел,
+                    както и голяма и малка тераса.
+                  </p>
+                </div>
+              </article>
+      
+              <article class="amenity-block">
+                <div class="amenity-block__number">03</div>
+                <div class="amenity-block__content">
+                  <h3>Топлина през всички сезони</h3>
+                  <p>
+                    Цялата къща се отоплява с парно, а големите тераси към стаите
+                    допълват усещането за простор, светлина и почивка сред природата.
+                  </p>
+                </div>
+              </article>
+            </div>
+      
+            <aside class="amenities-elegant__side">
+              <div class="amenities-panel">
+                <div class="amenities-panel__label">НА РАЗПОЛОЖЕНИЕ</div>
+      
+                <div class="amenities-lines">
+                    <div class="amenities-line">
+                      <span class="amenities-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="M7 20v-3a5 5 0 0 1 10 0v3M9 20h6M8 6c0 3 2 4 2 6m4-6c0 3-2 4-2 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </span>
+                      <span>Камина</span>
+                    </div>
+                  
+                    <div class="amenities-line">
+                      <span class="amenities-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <rect x="4" y="5" width="16" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/>
+                          <path d="M9 19h6M12 16v3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                        </svg>
+                      </span>
+                      <span>Телевизор</span>
+                    </div>
+                  
+                    <div class="amenities-line">
+                      <span class="amenities-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="M4 10h16M7 10V7h10v3M6 10v7m12-7v7M9 14h2m4 0h0" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </span>
+                      <span>Кухня</span>
+                    </div>
+                  
+                    <div class="amenities-line">
+                      <span class="amenities-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="M8 4h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.7"/>
+                          <path d="M8 10h8" fill="none" stroke="currentColor" stroke-width="1.7"/>
+                        </svg>
+                      </span>
+                      <span>Хладилник</span>
+                    </div>
+                  
+                    <div class="amenities-line">
+                      <span class="amenities-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="M4 9a8 8 0 0 1 16 0M7 12a5 5 0 0 1 10 0M10 15a2 2 0 0 1 4 0" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                        </svg>
+                      </span>
+                      <span>Безплатен интернет</span>
+                    </div>
+                  
+                    <div class="amenities-line">
+                      <span class="amenities-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="M7 8h10M7 12h10M9 16h1M6 5h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                        </svg>
+                      </span>
+                      <span>Баня / тоалетна</span>
+                    </div>
+                  
+                    <div class="amenities-line">
+                      <span class="amenities-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <rect x="5" y="7" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/>
+                          <path d="M9 7V5m6 2V5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                        </svg>
+                      </span>
+                      <span>Микровълнова</span>
+                    </div>
+                  
+                    <div class="amenities-line">
+                      <span class="amenities-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="M4 7h16M8 7v10m8-10v10M8 17h8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                        </svg>
+                      </span>
+                      <span>Тераса</span>
+                    </div>
+                  
+                    <div class="amenities-line">
+                      <span class="amenities-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="M3 17l6-6 4 4 5-7 3 4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </span>
+                      <span>Изглед</span>
+                    </div>
+                  
+                    <div class="amenities-line">
+                      <span class="amenities-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="M7 6h8l2 4v8H7zM7 10h10" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                        </svg>
+                      </span>
+                      <span>Ютия</span>
+                    </div>
+                  
+                    <div class="amenities-line">
+                      <span class="amenities-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="M4 18V8l8-4 8 4v10M8 18v-5h8v5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                        </svg>
+                      </span>
+                      <span>Механа</span>
+                    </div>
+                  
+                    <div class="amenities-line">
+                      <span class="amenities-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="M6 8h12M6 12h12M6 16h9" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                        </svg>
+                      </span>
+                      <span>Парно отопление</span>
+                    </div>
+                  </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="prices" class="prices-editorial">
+        <div class="prices-editorial__veil"></div>
+      
+        <div class="prices-editorial__wrap">
+          <div class="prices-editorial__intro">
+            <div class="prices-editorial__eyebrow">ЦЕНИ • НАСТАНЯВАНЕ</div>
+            <h2 class="prices-editorial__title">Цени</h2>
+            <p class="prices-editorial__lead">
+              Изберете подходящия вариант за вашия престой в Къща за гости „Ники“
+              и се насладете на уют, спокойствие и красива родопска атмосфера.
+            </p>
+          </div>
+      
+          <div class="prices-editorial__grid">
+            <article class="price-editorial-card price-editorial-card--main">
+              <div class="price-editorial-card__top">
+                <div class="price-editorial-card__label">АПАРТАМЕНТ</div>
+                <div class="price-editorial-card__price">150€</div>
+                <div class="price-editorial-card__note">на вечер</div>
+                <span class="price-included">Включена закуска</span>
+              </div>
+      
+              <div class="price-editorial-card__content">
+                <h3>Апартамент с отделен вход</h3>
+                <p>
+                  Подходящ за до 8 човека. Състои се от две отделни спални,
+                  голям хол с разтегателен диван, кухненски бокс, санитарен възел,
+                  една голяма и една малка тераса.
+                </p>
+              </div>
+            </article>
+      
+            <article class="price-editorial-card">
+              <div class="price-editorial-card__top">
+                <div class="price-editorial-card__label">ДВОЙНА СТАЯ</div>
+                <div class="price-editorial-card__price">45€</div>
+                <div class="price-editorial-card__note">на вечер</div>
+                <span class="price-included">Включена закуска</span>
+              </div>
+      
+              <div class="price-editorial-card__content">
+                <h3>Стая със самостоятелен комфорт</h3>
+                <p>
+                  Всяка стая разполага със собствен санитарен възел, телевизор,
+                  мини бар и безплатен интернет, за да се чувствате удобно
+                  през целия си престой.
+                </p>
+              </div>
+            </article>
+          </div>
+      
+          <div class="prices-editorial__footer">
+            <a href="#contact" class="prices-editorial__btn">Запитване за резервация</a>
+          </div>
+        </div>
+      </section>
+    
+
+      <section id="gallery" class="gallery-mist">
+        <div class="gallery-mist__veil"></div>
+      
+        <div class="gallery-mist__wrap">
+          <div class="gallery-mist__intro">
+            <div class="gallery-mist__eyebrow">ГАЛЕРИЯ • АТМОСФЕРА • ВКУС • ИЗЖИВЯВАНЕ</div>
+            <h2 class="gallery-mist__title">Галерия</h2>
+            <p class="gallery-mist__lead">
+              Потопете се в атмосферата на Къща за гости „Ники“ — уютни пространства,
+              домашни ястия и видео обиколка на мястото, което ви очаква в сърцето на Родопите.
+            </p>
+            
+          </div>
+
+
+          <div class="gallery-mist__hint">Плъзни, за да видиш всички категории снимки →</div>
+        
+      
+          <div class="gallery-tabs" role="tablist" aria-label="Категории галерия">
+            <button class="gallery-tab is-active" type="button" role="tab" aria-selected="true" data-gallery-tab="villa">
+              Вилата + механата
+            </button>
+            <button class="gallery-tab" type="button" role="tab" aria-selected="false" data-gallery-tab="food">
+              Нашите ястия
+            </button>
+            <button class="gallery-tab" type="button" role="tab" aria-selected="false" data-gallery-tab="video">
+              Видео обиколка
+            </button>
+          </div>
+          
+          <div class="gallery-panels">
+            <!-- PANEL 1 -->
+            <div class="gallery-panel is-active" data-gallery-panel="villa">
+              <div class="gallery-masonry">
+                <a href="img/house-niki1.webp" class="gallery-card gallery-card--lg">
+                  <img src="img/house-niki1.webp" alt="Къща за гости Ники - фасада" />
+                  <span class="gallery-card__label">Фасада</span>
+                </a>
+          
+                <a href="img/house-niki-view.webp" class="gallery-card gallery-card--md">
+                  <img src="img/house-niki-view.webp" alt="Къща за гости Ники - изглед отпред" />
+                  <span class="gallery-card__label">Изглед отпред</span>
+                </a>
+          
+                <a href="img/vunshna-mehana.webp" class="gallery-card gallery-card--sm">
+                  <img src="img/vunshna-mehana.webp" alt="Външна механа" />
+                  <span class="gallery-card__label">Външна механа</span>
+                </a>
+          
+                <a href="img/mehana.webp" class="gallery-card gallery-card--sm">
+                  <img src="img/mehana.webp" alt="Механа" />
+                  <span class="gallery-card__label">Механа</span>
+                </a>
+          
+                <a href="img/kamina.webp" class="gallery-card gallery-card--lg">
+                  <img src="img/kamina.webp" alt="Камина" />
+                  <span class="gallery-card__label">Камина</span>
+                </a>
+          
+                <a href="img/spalnq.webp" class="gallery-card gallery-card--md">
+                  <img src="img/spalnq.webp" alt="Спалня" />
+                  <span class="gallery-card__label">Спалня</span>
+                </a>
+          
+                <a href="img/room.webp" class="gallery-card gallery-card--sm">
+                  <img src="img/room.webp" alt="Стая" />
+                  <span class="gallery-card__label">Стая</span>
+                </a>
+          
+                <a href="img/room2.webp" class="gallery-card gallery-card--sm">
+                  <img src="img/room2.webp" alt="Стая с две легла" />
+                  <span class="gallery-card__label">Двойна стая</span>
+                </a>
+          
+                <a href="img/room3.webp" class="gallery-card gallery-card--md">
+                  <img src="img/room3.webp" alt="Уютна стая" />
+                  <span class="gallery-card__label">Уютна стая</span>
+                </a>
+          
+                <a href="img/staq.webp" class="gallery-card gallery-card--sm">
+                  <img src="img/staq.webp" alt="Интериор на стая" />
+                  <span class="gallery-card__label">Интериор</span>
+                </a>
+              </div>
+            </div>
+          
+            <!-- PANEL 2 -->
+            <div class="gallery-panel" data-gallery-panel="food">
+              <div class="food-gallery">
+                <a href="img/qstie.webp" class="food-card food-card--image">
+                  <img src="img/qstie.webp" alt="Ястие" />
+                </a>
+          
+                <a href="img/qstie1.webp" class="food-card food-card--image">
+                  <img src="img/qstie1.webp" alt="Ястие 1" />
+                </a>
+          
+                <a href="img/qstie2.webp" class="food-card food-card--image">
+                  <img src="img/qstie2.webp" alt="Ястие 2" />
+                </a>
+          
+                <a href="img/qstie3.webp" class="food-card food-card--image">
+                  <img src="img/qstie3.webp" alt="Ястие 3" />
+                </a>
+          
+                <a href="img/qstie4.webp" class="food-card food-card--image">
+                  <img src="img/qstie4.webp" alt="Ястие 4" />
+                </a>
+          
+                <a href="img/qstie5.webp" class="food-card food-card--image">
+                  <img src="img/qstie5.webp" alt="Ястие 5" />
+                </a>
+              </div>
+            </div>
+      
+            <!-- PANEL 3 -->
+            <div class="gallery-panel" data-gallery-panel="video">
+                <div class="video-grid video-grid--styled">
+                  <article class="video-card video-card--styled">
+                    <div class="video-card__media">
+                      <img class="video-card__cover" src="img/spalnq.webp" alt="Обща обиколка" />
+              
+                      <video preload="metadata" playsinline>
+                        <source src="img/video4.mp4" type="video/mp4" />
+                      </video>
+              
+                      <button class="video-card__play" type="button" aria-label="Пусни видео">
+                        <span class="video-card__play-circle">
+                          <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M8 6.5v11l9-5.5-9-5.5z" fill="currentColor"></path>
+                          </svg>
+                        </span>
+                      </button>
+              
+                      <div class="video-card__overlay">
+                        <div class="video-card__meta">
+                          <h3>Обща обиколка</h3>
+                          <p>Запознайте се с атмосферата и пространствата в къщата.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+              
+                  <article class="video-card video-card--styled">
+                    <div class="video-card__media">
+                      <img class="video-card__cover" src="img/house-niki-view.webp" alt="Механата" />
+              
+                      <video preload="metadata" playsinline>
+                        <source src="img/video1.mp4" type="video/mp4" />
+                      </video>
+              
+                      <button class="video-card__play" type="button" aria-label="Пусни видео">
+                        <span class="video-card__play-circle">
+                          <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M8 6.5v11l9-5.5-9-5.5z" fill="currentColor"></path>
+                          </svg>
+                        </span>
+                      </button>
+              
+                      <div class="video-card__overlay">
+                        <div class="video-card__meta">
+                          <h3>Механата</h3>
+                          <p>Уютно място за събирания, вечери и споделени моменти.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+              
+                  <article class="video-card video-card--styled">
+                    <div class="video-card__media">
+                      <img class="video-card__cover" src="img/mehana.webp" alt="Стаите" />
+              
+                      <video preload="metadata" playsinline>
+                        <source src="img/video2.mp4" type="video/mp4" />
+                      </video>
+              
+                      <button class="video-card__play" type="button" aria-label="Пусни видео">
+                        <span class="video-card__play-circle">
+                          <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M8 6.5v11l9-5.5-9-5.5z" fill="currentColor"></path>
+                          </svg>
+                        </span>
+                      </button>
+              
+                      <div class="video-card__overlay">
+                        <div class="video-card__meta">
+                          <h3>Стаите</h3>
+                          <p>Поглед към интериора, уюта и спокойствието на престоя.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+              
+                  <article class="video-card video-card--styled">
+                    <div class="video-card__media">
+                      <img class="video-card__cover" src="img/house-niki1.webp" alt="Гледки и атмосфера" />
+              
+                      <video preload="metadata" playsinline>
+                        <source src="img/video3.mp4" type="video/mp4" />
+                      </video>
+              
+                      <button class="video-card__play" type="button" aria-label="Пусни видео">
+                        <span class="video-card__play-circle">
+                          <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M8 6.5v11l9-5.5-9-5.5z" fill="currentColor"></path>
+                          </svg>
+                        </span>
+                      </button>
+              
+                      <div class="video-card__overlay">
+                        <div class="video-card__meta">
+                          <h3>Гледки и атмосфера</h3>
+                          <p>Усещане за Родопите, природата и спокойствието наоколо.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="gallery-lightbox" id="galleryLightbox" aria-hidden="true">
+        <div class="gallery-lightbox__dialog">
+          <button class="gallery-lightbox__close" id="lightboxClose" type="button" aria-label="Затвори">✕</button>
+          <button class="gallery-lightbox__prev" id="lightboxPrev" type="button" aria-label="Предишна">‹</button>
+      
+          <div>
+            <img class="gallery-lightbox__img" id="lightboxImage" src="" alt="" />
+            <div class="gallery-lightbox__caption" id="lightboxCaption"></div>
+          </div>
+      
+          <button class="gallery-lightbox__next" id="lightboxNext" type="button" aria-label="Следваща">›</button>
+        </div>
+      </div>
+
+      <section id="location" class="location-mist">
+        <div class="location-mist__veil"></div>
+      
+        <div class="location-mist__wrap">
+          <div class="location-mist__intro">
+            <div class="location-mist__eyebrow">ЛОКАЦИЯ • РОДОПИ • ЗАБЕЛЕЖИТЕЛНОСТИ</div>
+            <h2 class="location-mist__title">Локация</h2>
+            <p class="location-mist__lead">
+              Къща за гости „Ники“ се намира в Широка лъка — едно от най-красивите и
+              автентични места в Родопите, където природата, архитектурата и спокойствието
+              създават усещане за истинско бягство от ежедневието.
+            </p>
+          </div>
+      
+          <div class="location-mist__grid">
+            <div class="location-mist__main">
+              <div class="location-card">
+                <div class="location-card__label">КЪДЕ СМЕ НИЕ</div>
+                <h3>Широка лъка, сърцето на Родопите</h3>
+                <p>
+                  Само на 10 км от Пампорово и на 20 км от Смолян, къщата предлага
+                  чудесна комбинация от тишина, чист въздух и лесен достъп до
+                  най-интересните места в района.
+                </p>
+      
+                <div class="location-distances">
+                  <div class="location-distance">
+                    <span class="location-distance__place">Пампорово</span>
+                    <span class="location-distance__value">10 км</span>
+                  </div>
+                  <div class="location-distance">
+                    <span class="location-distance__place">Смолян</span>
+                    <span class="location-distance__value">20 км</span>
+                  </div>
+                  <div class="location-distance">
+                    <span class="location-distance__place">Девин</span>
+                    <span class="location-distance__value">20 км</span>
+                  </div>
+                </div>
+      
+                <a href="#contact" class="location-mist__btn">Запитване за престой</a>
+              </div>
+      
+              <div class="location-map-card">
+                <div class="location-map-card__label">КАРТА</div>
+                <div class="location-map-card__embed">
+                  <iframe
+                    src="https://www.google.com/maps?q=Zgurovskata%20Guest%20House,%20Kapitan%20Petko%20Voivoda%20117,%204710%20Smolyan,%20Bulgaria&output=embed"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    allowfullscreen
+                    title="Карта на Къща за гости Ники">
+                  </iframe>
+                </div>
+              </div>
+            </div>
+      
+            <aside class="location-mist__side">
+              <div class="attractions-card">
+                <div class="attractions-card__label">ЗАБЕЛЕЖИТЕЛНОСТИ НАОКОЛО</div>
+      
+                <div class="attractions-list">
+                  <article class="attraction-item">
+                    <div class="attraction-item__icon">✦</div>
+                    <div class="attraction-item__content">
+                      <h4>Ягодинската пещера</h4>
+                      <p>Една от най-впечатляващите пещери в България, известна със своите форми и магична атмосфера.</p>
+                    </div>
+                  </article>
+      
+                  <article class="attraction-item">
+                    <div class="attraction-item__icon">✦</div>
+                    <div class="attraction-item__content">
+                      <h4>Дяволското гърло</h4>
+                      <p>Емблематично природно място, което съчетава легенди, вода и впечатляващи гледки.</p>
+                    </div>
+                  </article>
+      
+                  <article class="attraction-item">
+                    <div class="attraction-item__icon">✦</div>
+                    <div class="attraction-item__content">
+                      <h4>Беденски минерални бани</h4>
+                      <p>Чудесен избор за релакс и възстановяване сред спокойствието на Родопите.</p>
+                    </div>
+                  </article>
+      
+                  <article class="attraction-item">
+                    <div class="attraction-item__icon">✦</div>
+                    <div class="attraction-item__content">
+                      <h4>Екопътеки и разходки</h4>
+                      <p>Районът предлага красиви маршрути, чист въздух и усещане за пълно откъсване от града.</p>
+                    </div>
+                  </article>
+      
+                  <article class="attraction-item">
+                    <div class="attraction-item__icon">✦</div>
+                    <div class="attraction-item__content">
+                      <h4>Широка лъка</h4>
+                      <p>Селото впечатлява с автентична архитектура, култура, музеи и неподражаем родопски дух.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section> 
+
+      <section id="faq" class="faq-mist">
+        <div class="faq-mist__veil"></div>
+      
+        <div class="faq-mist__wrap">
+          <div class="faq-mist__intro">
+            <div class="faq-mist__eyebrow">ЧЕСТО ЗАДАВАНИ ВЪПРОСИ</div>
+            <h2 class="faq-mist__title">Полезна информация</h2>
+            <p class="faq-mist__lead">
+              Събрахме най-често задаваните въпроси, за да ви помогнем по-лесно да
+              планирате своя престой в Къща за гости „Ники“.
+            </p>
+          </div>
+      
+          <div class="faq-list">
+            <details class="faq-item">
+              <summary>Как се прави резервация?</summary>
+              <div class="faq-item__content">
+                Резервация можете да направите чрез секцията „Запази дати“, по телефон
+                или чрез Facebook съобщение.
+              </div>
+            </details>
+      
+            <details class="faq-item">
+              <summary>В колко часа е настаняването и освобождаването?</summary>
+              <div class="faq-item__content">
+                Настаняването и освобождаването се уточняват предварително при запитване,
+                за да можем да ви посрещнем максимално удобно.
+              </div>
+            </details>
+      
+            <details class="faq-item">
+              <summary>Има ли отопление през зимата?</summary>
+              <div class="faq-item__content">
+                Да, цялата къща се отоплява с парно, което осигурява комфорт и уют през
+                зимния сезон.
+              </div>
+            </details>
+      
+            <details class="faq-item">
+              <summary>Подходяща ли е къщата за семейства и деца?</summary>
+              <div class="faq-item__content">
+                Да, мястото е подходящо както за семейства с деца, така и за приятелски
+                компании и спокойна почивка сред природата.
+              </div>
+            </details>
+      
+            <details class="faq-item">
+              <summary>Има ли интернет във всички стаи?</summary>
+              <div class="faq-item__content">
+                Да, в къщата е осигурен безплатен интернет за гостите.
+              </div>
+            </details>
+      
+            <details class="faq-item">
+              <summary>Колко близо е Пампорово?</summary>
+              <div class="faq-item__content">
+                Пампорово се намира само на около 10 км, което прави къщата чудесен избор
+                и за зимна почивка.
+              </div>
+            </details>
+      
+            <details class="faq-item">
+              <summary>Може ли да се наеме апартаментът отделно?</summary>
+              <div class="faq-item__content">
+                Да, апартаментът може да бъде нает отделно. За повече информация и
+                свободни дати се свържете с нас.
+              </div>
+            </details>
+      
+            <details class="faq-item">
+              <summary>Как мога да получа повече информация?</summary>
+              <div class="faq-item__content">
+                Най-бързо можете да се свържете с нас по телефон или чрез Facebook,
+                където ще отговорим на всички въпроси относно престоя и настаняването.
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-mist">
+        <div class="contact-mist__veil"></div>
+      
+        <div class="contact-mist__wrap">
+          <div class="contact-mist__intro">
+            <div class="contact-mist__eyebrow">КОНТАКТИ • ИНФОРМАЦИЯ • РЕЗЕРВАЦИИ</div>
+            <h2 class="contact-mist__title">Контакти</h2>
+            <p class="contact-mist__lead">
+              За информация, свободни дати, резервации и въпроси, свържете се с нас.
+              Ще се радваме да помогнем и да ви насочим към най-подходящия вариант за престой.
+            </p>
+          </div>
+      
+          <div class="contact-mist__grid">
+            <div class="contact-main-card">
+              <div class="contact-main-card__label">СВЪРЖЕТЕ СЕ С НАС</div>
+              <h3>Очакваме ви в Къща за гости „Ники“</h3>
+              <p>
+                Можете да се обадите по телефона или да ни пишете във Facebook.
+                С удоволствие ще отговорим на вашите въпроси и ще ви дадем повече информация
+                за настаняване, цени и налични дати.
+              </p>
+      
+              <div class="contact-cta-note">
+                За бърза информация и запитвания, най-удобно е да се свържете директно с нас.
+              </div>
+            </div>
+      
+            <div class="contact-info-card">
+              <div class="contact-info-card__label">ДАННИ ЗА ВРЪЗКА</div>
+      
+              <div class="contact-lines">
+                <a class="contact-line" href="tel:+359895628086">
+                  <span class="contact-line__icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M6.6 10.8c1.5 3 3.6 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.1 21 3 13.9 3 5c0-.6.4-1 1-1h3.3c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z" fill="currentColor"/>
+                    </svg>
+                  </span>
+                  <span class="contact-line__content">
+                    <strong>Телефон</strong>
+                    <span>+359 895 628 086</span>
+                  </span>
+                </a>
+      
+                <a class="contact-line" 
+   href="https://www.facebook.com/profile.php?id=61577681007292" 
+   target="_blank" 
+   rel="noopener">
+  <span class="contact-line__icon">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M13.5 22v-8h2.7l.4-3H13.5V9.1c0-.9.3-1.6 1.6-1.6H16.8V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3h2.6v8h3.4z" fill="currentColor"/>
+    </svg>
+  </span>
+  <span class="contact-line__content">
+    <strong>Facebook</strong>
+    <span>Пишете ни директно</span>
+  </span>
+</a>
+      
+              <div class="contact-small-note">
+                Обадете се за повече информация, въпроси и резервации.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="booking" class="booking-mist">
+        <div class="booking-mist__veil"></div>
+      
+        <div class="booking-mist__wrap">
+          <div class="booking-mist__intro">
+            <div class="booking-mist__eyebrow">ЗАПАЗИ ДАТИ • ЗАПИТВАНЕ • РЕЗЕРВАЦИЯ</div>
+            <h2 class="booking-mist__title">Запази дати</h2>
+            <p class="booking-mist__lead">
+              Изпратете запитване за свободни дати, настаняване и престой.
+              Ще се свържем с вас възможно най-скоро с повече информация.
+            </p>
+          </div>
+      
+          <div class="booking-mist__grid">
+            <div class="booking-info-card">
+              <div class="booking-info-card__label">ИНФОРМАЦИЯ</div>
+              <h3>Изпратете запитване за престой</h3>
+              <p>
+                Изберете начална и крайна дата, попълнете кратка информация за престоя
+                и изпратете своето запитване. Формата е подходяща за въпроси относно
+                свободни дати, двойни стаи и апартамент.
+              </p>
+      
+              <div class="booking-info-points">
+                <div class="booking-info-point">Избор на дати от – до</div>
+                <div class="booking-info-point">Запитване за брой гости</div>
+                <div class="booking-info-point">Форма за въпроси и допълнителна информация</div>
+              </div>
+      
+              <div class="booking-summary" id="bookingSummary">
+                Изберете период и попълнете данните за вашето запитване.
+              </div>
+            </div>
+      
+            <div class="booking-form-card">
+              <!-- СМЕНИ action с твоя Formspree URL -->
+              <form
+                id="bookingForm"
+                action="https://formspree.io/f/xxxxxxxx"
+                method="POST"
+                class="booking-form"
+              >
+                <div class="booking-form__row">
+                  <div class="booking-field">
+                    <label for="bookingName">Име</label>
+                    <input type="text" id="bookingName" name="name" placeholder="Вашето име" required />
+                  </div>
+      
+                  <div class="booking-field">
+                    <label for="bookingPhone">Телефон</label>
+                    <input type="tel" id="bookingPhone" name="phone" placeholder="+359..." required />
+                  </div>
+                </div>
+      
+                <div class="booking-form__row">
+                  <div class="booking-field">
+                    <label for="bookingEmail">Имейл</label>
+                    <input type="email" id="bookingEmail" name="email" placeholder="example@email.com" />
+                  </div>
+      
+                  <div class="booking-field">
+                    <label for="bookingGuests">Брой гости</label>
+                    <input type="number" id="bookingGuests" name="guests" min="1" max="20" placeholder="Напр. 4" required />
+                  </div>
+                </div>
+      
+                <div class="booking-form__row">
+                  <div class="booking-field">
+                    <label for="bookingCheckin">От дата</label>
+                    <input type="date" id="bookingCheckin" name="checkin" required />
+                  </div>
+      
+                  <div class="booking-field">
+                    <label for="bookingCheckout">До дата</label>
+                    <input type="date" id="bookingCheckout" name="checkout" required />
+                  </div>
+                </div>
+      
+                <div class="booking-form__row booking-form__row--single">
+                  <div class="booking-field">
+                    <label for="bookingType">Тип настаняване</label>
+                    <select id="bookingType" name="accommodation_type" required>
+                      <option value="">Изберете вариант</option>
+                      <option value="Двойна стая">Двойна стая</option>
+                      <option value="Апартамент">Апартамент</option>
+                      <option value="Запитване за цялата къща">Запитване за цялата къща</option>
+                    </select>
+                  </div>
+                </div>
+      
+                <div class="booking-form__row booking-form__row--single">
+                  <div class="booking-field">
+                    <label for="bookingMessage">Съобщение</label>
+                    <textarea
+                      id="bookingMessage"
+                      name="message"
+                      rows="6"
+                      placeholder="Напишете допълнителна информация, въпроси или предпочитания..."
+                    ></textarea>
+                  </div>
+                </div>
+      
+                <!-- полезно за Formspree -->
+                <input type="hidden" name="_subject" value="Ново запитване от сайта - Къща за гости Ники" />
+      
+                <button type="submit" class="booking-form__submit">Изпрати запитване</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+      <footer class="site-footer">
+        <div class="site-footer__veil"></div>
+      
+        <div class="site-footer__wrap">
+          <div class="site-footer__top">
+            <div class="site-footer__brand">
+              <div class="site-footer__eyebrow">КЪЩА ЗА ГОСТИ • НИКИ</div>
+              <h3 class="site-footer__title">Широка лъка • Родопи</h3>
+              <p class="site-footer__text">
+                Нов лукс, уют и спокойствие в сърцето на Родопите.
+                Място за почивка, което се помни.
+              </p>
+            </div>
+      
+            <div class="site-footer__nav">
+              <h4>Навигация</h4>
+              <nav aria-label="Footer navigation">
+                <a href="#about">За вилата</a>
+                <a href="#amenities">Удобства</a>
+                <a href="#prices">Цени</a>
+                <a href="#gallery">Галерия</a>
+                <a href="#location">Локация</a>
+                <a href="#contact">Контакти</a>
+                <a href="#booking">Запази дати</a>
+              </nav>
+            </div>
+      
+            <div class="site-footer__contact">
+              <h4>Контакти</h4>
+      
+              <a href="tel:+359895628086" class="site-footer__line">
+                <span class="site-footer__icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6.6 10.8c1.5 3 3.6 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.1 21 3 13.9 3 5c0-.6.4-1 1-1h3.3c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z" fill="currentColor"/>
+                  </svg>
+                </span>
+                <span>+359 895 628 086</span>
+              </a>
+              
+              <a href="https://www.facebook.com/profile.php?id=61577681007292"
+                 target="_blank"
+                 rel="noopener"
+                 class="site-footer__line">
+                <span class="site-footer__icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M13.5 22v-8h2.7l.4-3H13.5V9.1c0-.9.3-1.6 1.6-1.6H16.8V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3h2.6v8h3.4z" fill="currentColor"/>
+                  </svg>
+                </span>
+                <span>Facebook страница</span>
+              </a>
+              
+              <a href="https://www.google.com/maps/place/%D0%9A%D1%8A%D1%89%D0%B0+%E2%80%9E%D0%9D%D0%B8%D0%BA%D0%B8%E2%80%9C,+Kapitan+Petko+Voivoda+117,+4710+%D0%A1%D0%BC%D0%BE%D0%BB%D1%8F%D0%BD/data=!4m2!3m1!1s0x14ac5f6458f375f5:0x75819904c0a706d9!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjEwLjEYACDXggMqnwEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwNzk5MjUxLDEwMDc5MjU2OCwxMDA3OTYxOTNCAkJH&skid=b8aae80d-7117-4b1c-ba90-50f2f85ca909&g_st=afm"
+                 target="_blank"
+                 rel="noopener"
+                 class="site-footer__line">
+                <span class="site-footer__icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 20c4.4-2.6 6-6.2 6-9.5A6 6 0 0 0 12 4a6 6 0 0 0-6 6.5c0 3.3 1.6 6.9 6 9.5z" fill="currentColor"/>
+                  </svg>
+                </span>
+                <span>ул. Капитан Петко войвода 117, 4710 Широка лъка, Смолян</span>
+              </a>
+          <div class="site-footer__bottom">
+            <p>© 2026 Къща за гости „Ники“. Всички права запазени.</p>
+          </div>
+        </div>
+      </footer>
+      <button class="scroll-top" id="scrollTopBtn" aria-label="Обратно нагоре">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6 14l6-6 6 6" 
+                fill="none" 
+                stroke="currentColor" 
+                stroke-width="2.2" 
+                stroke-linecap="round" 
+                stroke-linejoin="round"/>
+        </svg>
+      </button>
+
+
+    <script src="script.js"></script>
+  
+</body>
+</html>
